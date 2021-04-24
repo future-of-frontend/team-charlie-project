@@ -1,8 +1,22 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "mappings": "AUAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,UAAU;CACpB;;AVaD,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
     "sources": [
-        "../scss/style.scss"
+        "../scss/style.scss",
+        "../scss/_about.scss",
+        "../scss/_btn.scss",
+        "../scss/_burger.scss",
+        "../scss/_clients.scss",
+        "../scss/_expert.scss",
+        "../scss/_footer.scss",
+        "../scss/_header.scss",
+        "../scss/_home.scss",
+        "../scss/_list.scss",
+        "../scss/_section.scss",
+        "../scss/_text.scss",
+        "../scss/_title.scss",
+        "../scss/_work-link.scss",
+        "../scss/_works.scss"
     ],
     "names": [],
     "file": "style.css"
