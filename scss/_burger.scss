@@ -1,1 +1,39 @@
 // Юля
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 340px / 2000px * 100%;
+  padding-right: 340px / 2000px * 100%;
+  padding-top: 80px;
+}
+.burger {
+  outline: 0;
+  background: none;
+  width: 42px;
+  height: 20px;
+  border: 0;
+  padding: 0 8px;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+
+  &__line,
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  &::before {
+    top: 0;
+    position: absolute;
+  }
+
+  &::after {
+    bottom: 0;
+    position: absolute;
+  }
+}
