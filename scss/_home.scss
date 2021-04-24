@@ -1,4 +1,47 @@
 // Андрей
+.home {
+  position: relative;
+  color: #ffffff;
+  background: url(../img/Background.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  &__link {
+    position: absolute;
+    left: 50%;
+    bottom: 32px;
+  }
+  &__subtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+  }
+  &__img {
+    margin-bottom: 64px;
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba($color: #fff, $alpha: 0.09),
+      0 0 0 20px rgba($color: #fff, $alpha: 0.06);
+  }
+  &__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+}
 .home__btn {
   height: 56px;
   width: 187px;

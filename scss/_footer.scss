@@ -1,1 +1,19 @@
 // Андрей
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background: url(../img/Background.jpg) center center no-repeat;
+  background-size: cover;
+  &__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 30px;
+  }
+}
