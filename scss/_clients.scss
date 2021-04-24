@@ -1,1 +1,14 @@
 // Коля
+.clients {
+  background: #f9f9f9;
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin-top: 64px;
+  }
+}
