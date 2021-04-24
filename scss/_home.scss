@@ -1,1 +1,20 @@
 // Андрей
+.home__btn {
+  height: 56px;
+  width: 187px;
+  border-radius: 30px;
+  color: rgba(54, 149, 255, 1);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  background: rgb(224, 216, 216);
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+.home__btn:hover {
+  color: #fff;
+  background: rgba(54, 149, 255, 1);
+}
