@@ -1,14 +1,13 @@
 .header {
-  display: flex;
-  justify-content: flex-end;
-  padding-left: 340px / 2000px * 100%;
-  padding-right: 340px / 2000px * 100%;
-  padding-top: 2%;
-  align-items: flex-start;
-  position: fixed;
-  background: transparent;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 111;
+  &__burger {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    background: transparent;
+    left: 0;
+    right: 3%;
+    top: 3%;
+    z-index: 111;
+  }
 }
