@@ -1,5 +1,6 @@
 // Юля
 .list {
+  list-style-type: none;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
     &:hover {
       background: #fff;
       border: 1px solid #3595ff;
-      
+
       .img__svg {
         fill: #3564fc;
       }

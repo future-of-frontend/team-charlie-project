@@ -14,10 +14,38 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__burger">
-        <button class="burger">
-          <div class="burger__line"></div>
-        </button>
+      <div class="header__menu">
+        <div class="burger"></div>
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__item item">
+              <a href="#about" class="menu__link link">About Me</a>
+            </li>
+            <li class="menu__item item">
+              <a href="#services" class="menu__link link">Services</a>
+            </li>
+            <li class="menu__item item">
+              <a href="#works" class="menu__link link">My Works</a>
+            </li>
+            <li class="menu__item item">
+              <a href="#clients" class="menu__link link">Clients</a>
+            </li>
+          </ul>
+          <div class="menu__logos">
+            <a href="#" class="menu__logo logo">
+              <img src="img/Facebook.png" alt="Facebook" />
+            </a>
+            <a href="#" class="menu__logo logo">
+              <img src="img/Twitter.png" alt="Twitter" />
+            </a>
+            <a href="#" class="menu__logo logo">
+              <img src="img/Dribble.png" alt="Dribble" />
+            </a>
+            <a href="#" class="menu__logo logo">
+              <img src="img/Behance.png" alt="Behance" />
+            </a>
+          </div>
+        </div>
       </div>
       <section class="section home">
         <div class="container">
@@ -51,7 +79,7 @@
         </p>
       </div>
     </section>
-    <section class="section expert">
+    <section class="section expert" id="services">
       <div class="container">
         <h2 class="expert__title title">Expert In</h2>
         <div class="container">
@@ -298,7 +326,7 @@
         </div>
       </div>
     </section>
-    <section class="section works">
+    <section class="section works" id="works">
       <div class="container">
         <h2 class="works__title title">Latest Works</h2>
         <div class="container">
@@ -349,7 +377,7 @@
         </div>
       </div>
     </section>
-    <section class="section clients">
+    <section class="section clients" id="clients">
       <div class="container">
         <h2 class="clients__title title">Clients</h2>
         <ul class="clients__list">
@@ -394,6 +422,7 @@
       </p>
       <button class="footer__btn btn">HIRE ME</button>
     </footer>
+    <script src="js/script.js"></script>
   </body>
   <!-- Привет -->
 </html>

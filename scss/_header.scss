@@ -1,13 +1,13 @@
 .header {
-  &__burger {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+  &__menu {
     position: fixed;
-    background: transparent;
+    width: 100vw;
+    top: 0;
+    right: 0;
     left: 0;
-    right: 3%;
-    top: 3%;
-    z-index: 111;
+    bottom: 0;
+    padding: 5vh 10vw 10vh;
+    z-index: 999;
+    pointer-events: none;
   }
 }
